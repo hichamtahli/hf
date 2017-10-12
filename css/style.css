@@ -1,0 +1,178 @@
+/* RESET */
+h1, h2, h3, h4, h5, ul, li {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+.col-md-6 {
+	margin: 0;
+	padding: 0;
+}
+/* END RESET */
+
+/* COMMUN */
+body {
+	background: #979797;
+	font-size: 16px;
+}
+.tac {
+	text-align: center;
+}
+.tar {
+	text-align: right;
+}
+.tal {
+	text-align: left;
+}
+.container.container-fluid {
+	width: 1435px;
+	max-width: 1435px;
+}
+.white {
+	color: #FFF;
+}
+/* END COMMUN */
+
+/* HEADER */
+header {
+	background: url(../images/header.jpg) center center no-repeat;
+	width: 100%;
+	min-height: 442px;
+}
+header a, header a:hover {
+	color: #FFF;
+}
+.logo_container {
+	padding-top: 25px;
+}
+.logo img {
+	width: 151px;
+	display: inline-block;
+	margin: 0 0 0 18px;
+}
+.nav_link {	
+	margin: 0 0 0 134px;
+}
+.arrow1 {
+	background: url(../images/ico_arrow1.png) 100% 10px no-repeat;
+	padding: 0 25px 0 0;
+	display: inline-block;
+}
+.person img {
+	width: 50px;
+	height: 50px;  
+	-webkit-border-radius:28px;
+	-moz-border-radius:28px;
+	border-radius:28px;
+
+}
+.menu_top {
+	padding: 14px 18px 0 0;
+}
+.menu_top a {
+	margin: 0 0 0 19px;
+}
+.menu_top a.person {
+	margin: 0 0 0 25px;
+	background-position: 100% 25px; 
+}
+	/* SLIDE */
+.one_slide {
+	padding: 63px 19px 0 19px;
+	color: #FFF;
+	position: relative;
+}
+.one_slide img {	 
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	border-radius:100px;
+	border: 2px solid #FFF;
+	position: absolute;
+}
+.slide_text {
+	margin: 0 0 0 250px;
+}
+.one_slide h1 {
+	text-transform: capitalize;
+	font-size: 45px;
+	margin: 40px 0 35px 0;
+}
+.one_slide h4 {
+	margin: 0 0 10px 0;
+}
+.one_slide span {
+	text-transform: uppercase;
+}
+.slide_links {
+	position: absolute;
+	right: 50px;
+	margin: -30px 0 0 0;
+}
+.button_red {
+	background: #e23943;
+	margin: 0 15px 0 0;
+	color: #FFF;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+	padding: 5px 28px;
+}
+.ico_setting {
+	border: 1px solid #FFF;
+	display: inline-block;
+	background: url(../images/ico_setting.png) 55% center no-repeat;
+	width: 35px;
+	height: 35px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	border-radius:20px;
+	vertical-align: -10px;
+}
+
+	/* END SLIDE */
+	/* NAV */
+nav {
+	margin: 95px 0 0 19px;
+}	
+nav ul li {
+	display: inline-block;
+}	
+nav ul li:nth-child(1) {
+	width: 286px;
+}	
+nav ul li a {
+	padding: 0 8px 17px 8px;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0 72px 0 0;
+}	
+nav ul li.active a {
+	color: #ff3b43;
+	border-bottom: 3px solid #ff3b43;
+}	
+nav li ul {
+	display: none;
+	position: absolute;
+	background: #273042;
+	padding: 5px 0 15px;
+}
+nav ul ul li {
+	display: block;
+}		
+nav ul ul li a {
+	padding: 10px 0 00 27px;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0 0 0 0;
+}
+	/* END NAV */
+
+/* END HEADER */
