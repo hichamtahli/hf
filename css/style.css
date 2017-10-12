@@ -148,6 +148,11 @@ header a, header a:hover {
 	border-radius:20px;
 	vertical-align: -10px;
 }
+.heart_ico {
+	position: absolute;
+	top: 21px;
+	right: 17px;
+}
 
 @media (max-width: 780px) {
 
