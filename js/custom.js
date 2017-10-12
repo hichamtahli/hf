@@ -1,12 +1,14 @@
 $( document ).ready(function() {
 	/* NAVIGATION */
-	$('.popular').hover(
-	  function() {
-	    $('.nav1').slideDown();
-	  }, function() {
-	    $('.nav1').hide();
-	  }
-	);
+	if ($(window).width() > 990) {
+		$('.popular').hover(
+		  function() {
+		    $('.nav1').slideDown();
+		  }, function() {
+		    $('.nav1').hide();
+		  }
+		);
+	}
 	/* END NAVIGATION */
 
 
@@ -24,10 +26,6 @@ $( document ).ready(function() {
           center: ny
         });
 
-        // This event listener calls addMarker() when the map is clicked.
-        google.maps.event.addListener(map, 'click', function(event) {
-          addMarker(event.latLng, map);
-        });
 
         // Add a marker at the center of the map.
         addMarker(ny, map,'$60');
@@ -62,4 +60,22 @@ $( document ).ready(function() {
       }
 
       google.maps.event.addDomListener(window, 'load', initialize);
+
+
+	/* NAV MOBILE */      
+    $('.nav_open').click(function () {
+
+        var main_height = $( document ).height();
+        $('nav').height(main_height);
+        $('nav').slideDown();
+        $('.nav_close').show();
+        $(this).hide();
+
+    });
+    $('.nav_close').click(function () {
+        $('nav').slideUp();
+        $('.nav_open').show();
+        $(this).hide();
+    });
+
 });	
