@@ -177,7 +177,13 @@ nav ul ul li a {
 
 /* END HEADER */
 
-/* */
+/* FOOTER */
+footer {
+	background: #273042;
+	min-height: 148px;
+	padding: 60px 0 0 140px;
+}
+/* END FOOTER */
 
 /* PAGE CONTENT */
 #content {
@@ -211,7 +217,7 @@ nav ul ul li a {
 }
 .one_galerie {
 	position: relative;
-	padding: 0 0 35px 0;
+	padding: 0 0 30px 0;
 }
 .galerie h2 {
 	font-size: 18px;
@@ -226,5 +232,9 @@ nav ul ul li a {
 	font-size: 14px;
 	color: #ffca33;
 	color: #000;
+}
+#map {
+	height: 724px;
+	margin: 20px 0 0 10px;
 }
 /* END PAGE CONTENT */
